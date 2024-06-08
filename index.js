@@ -22,13 +22,10 @@ const countangry2 = document.getElementById("countangry2")
 const submit = document.getElementById("submit")
 const comment = document.getElementById("comment")
 const commentbox = document.getElementById("commentbox")
-
 function submitComment(){
   commentbox.textContent += comment.value.toString() + "\n"
   comment. value=""
 }
-
-
 function clickLike1(){
   let totalLikes1 = parseInt(countLikes1.value) + 1
   countLikes1.textContent = totalLikes1.toString()
@@ -62,7 +59,6 @@ function clickHaha2(){
   let totalHaha2 = parseInt(countHaha2.value) + 1
   countHaha2.textContent = totalHaha2.toString()
 }
-
 function clickcare2(){
   let totalcare2 = parseInt(countcare2.value) + 1
   countcare2.textContent = totalcare2.toString()
